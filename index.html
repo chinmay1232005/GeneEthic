@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeneEthic - Safe Gene Editing Awareness</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 36px;
+        }
+
+        .header p {
+            font-size: 18px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #5cb85c;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero img {
+            max-width: 60%;
+            height: auto;
+            margin: 30px auto;
+            border-radius: 10px;
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .hero img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Mission Section */
+        .mission {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .mission h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .mission p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        /* Key Sections */
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .section {
+            padding: 20px;
+            background-color: #e9ecef;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .section:hover {
+            transform: scale(1.05);
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .section h3 {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .section p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer p {
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .sections {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>GeneEthic</h1>
+        <p>Promoting safe and ethical gene editing practices.</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to GeneEthic</h2>
+        <p>Your trusted source for safe and ethical gene editing information.</p>
+        <img src="https://www.genome.gov/sites/default/files/media/images/2020-06/CRISPR_960px.jpg" alt="Gene Editing Visualization">
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>We are dedicated to promoting the safe, ethical, and responsible use of gene editing. GeneEthic is here to provide guidance, connect clients with reputable doctors, and allow users to report misuse in the field of gene editing.</p>
+    </section>
+
+    <!-- Key Sections -->
+    <section class="sections">
+        <div class="section">
+            <img src="https://cdn.pixabay.com/photo/2016/10/11/09/26/gene-editing-1730256_1280.jpg" alt="Report Misuse">
+            <h3>Report Misuse</h3>
+            <p>Have you witnessed unethical gene editing practices? Report them confidentially here.</p>
+            <a href="report.html" class="button">Report Now</a>
+        </div>
+        <div class="section">
+            <img src="https://cdn.pixabay.com/photo/2017/08/28/00/27/dna-2685109_1280.jpg" alt="Find a Doctor">
+            <h3>Find a Doctor</h3>
+            <p>Access our directory of certified professionals who specialize in safe gene editing practices.</p>
+            <a href="find-doctor.html" class="button">Browse Directory</a> <!-- Link to Find Doctor page -->
+        </div>
+        <div class="section">
+            <img src="https://cdn.pixabay.com/photo/2016/12/13/14/40/dna-1903319_1280.jpg" alt="Patient Resources">
+            <h3>Patient Resources</h3>
+            <p>Learn more about the gene editing process, safety measures, and find helpful resources.</p>
+            <a href="resources.html" class="button">Learn More</a> <!-- Updated link -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 GeneEthic. All Rights Reserved. | <a href="#privacy" style="color: #fff;">Privacy Policy</a> | <a href="#terms" style="color: #fff;">Terms of Use</a></p>
+    </footer>
+
+</body>
+</html>
